@@ -15,7 +15,7 @@ public class GuessNum {
 
         do {
             int myNum = random.nextInt(100) + 1;
-            System.out.println("(" + myNum + ")");    // вывод на экран (УБРАТЬ)
+    //        System.out.println("(" + myNum + ")");    // вывод на экран (УБРАТЬ)
             System.out.println("Hello! What is your name?");
             userName = scanner.next();
             System.out.println("Try to guess my number (from 1 to 100)!");
