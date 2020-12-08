@@ -67,7 +67,7 @@ public class GuessNum {
         }
 
         System.out.printf("------------------------------------\n");
-        System.out.printf("Good byu, %s!", userName);
+        System.out.printf("Good bye, %s!", userName);
     }
 
     public static int askNumber(String msg, int min, int max) {
