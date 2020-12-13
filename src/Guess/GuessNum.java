@@ -93,15 +93,15 @@ public class GuessNum {
                         .comparingInt(GameResult::getAttempts)
                         .thenComparingLong(GameResult::getDuration)
         );
-        System.out.printf("\n");
+        System.out.print("\n");
         System.out.printf("%-10S %10S %14S\n","name","attempts","duration");
-        System.out.printf("------------------------------------\n");
+        System.out.print("------------------------------------\n");
         for (GameResult gr : leaderboard) {
     //        System.out.printf("name: %s, attend: %d, time: %.1f\n",
             System.out.printf("%-10s %10d %10.1f sec\n",
                     gr.getName(), gr.getAttempts(), gr.getDuration()/1000.0);
         }
-        System.out.printf("------------------------------------\n");
+        System.out.print("------------------------------------\n");
     }
 
     private static void printLeaderboard2() {       // FOR-EACH with counter
