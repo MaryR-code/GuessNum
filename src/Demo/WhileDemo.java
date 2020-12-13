@@ -1,16 +1,18 @@
-package Guess;
+package Demo;
 
 import java.util.Scanner;
 
-public class DoWhileDemo {
+public class WhileDemo {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you want to start?");
 
-        do {
-            System.out.println("Doing something useful!");
+        while (scanner.next().equals("yes")) {
+            System.out.println("Doing something...");
             System.out.println("Do you want to repeat?");
-        } while (scanner.next().equals("yes"));
+
+        }
 
         System.out.println("Good bye");
 

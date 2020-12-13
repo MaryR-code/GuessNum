@@ -4,6 +4,7 @@ public class GameResult {
     private String name;
     private int attempts;
     private long duration;
+    private long startTime;
 
     public String getName() {
         return name;
@@ -19,6 +20,14 @@ public class GameResult {
 
     public void setAttempts(int attempts) {
         this.attempts = attempts;
+    }
+
+    public long getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(long startTime) {
+        this.startTime = startTime;
     }
 
     public long getDuration() {

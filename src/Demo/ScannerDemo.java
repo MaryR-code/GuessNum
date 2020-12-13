@@ -1,4 +1,4 @@
-package Guess;
+package Demo;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

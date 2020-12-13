@@ -1,4 +1,4 @@
-package Guess;
+package Demo;
 
 import java.util.Scanner;
 
